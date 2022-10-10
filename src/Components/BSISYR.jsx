@@ -27,7 +27,7 @@ const BSISYR = () => {
                             <div class="card-body">
                                 <h5 class="card-title">BSIS 2nd Year</h5>
                                 <p class="card-text">Bachelor of Science in Information System.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <Link to="/bsis" class="btn btn-primary">Go somewhere</Link>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const BSISYR = () => {
                             <div class="card-body">
                                 <h5 class="card-title">BSIS 3rd Year</h5>
                                 <p class="card-text">Bachelor of Science in Information System.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <Link to="/bsis" class="btn btn-primary">Go somewhere</Link>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const BSISYR = () => {
                             <div class="card-body">
                                 <h5 class="card-title">BSIS 4th Year</h5>
                                 <p class="card-text">Bachelor of Science in Information System.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <Link to="/bsis" class="btn btn-primary">Go somewhere</Link>
                             </div>
                         </div>
                     </div>

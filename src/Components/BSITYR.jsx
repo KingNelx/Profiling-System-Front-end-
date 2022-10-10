@@ -51,7 +51,6 @@ const BSITYR = () => {
             <div class="card" style={
               { width: "auto" }
             }>
-             
               <div class="card-body">
                 <h5 class="card-title">BSIT 4th Year</h5>
                 <p class="card-text">Bachelor of Science in Information Technology.</p>

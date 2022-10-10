@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Profiling-System-Front-end-/static/css/main.073c9b0a.css",
-    "main.js": "/Profiling-System-Front-end-/static/js/main.819e9a65.js",
-    "index.html": "/Profiling-System-Front-end-/index.html",
-    "main.073c9b0a.css.map": "/Profiling-System-Front-end-/static/css/main.073c9b0a.css.map",
-    "main.819e9a65.js.map": "/Profiling-System-Front-end-/static/js/main.819e9a65.js.map"
+    "main.css": "/KingNelx/Profiling-System-Front-end-/static/css/main.073c9b0a.css",
+    "main.js": "/KingNelx/Profiling-System-Front-end-/static/js/main.819e9a65.js",
+    "index.html": "/KingNelx/Profiling-System-Front-end-/index.html",
+    "main.073c9b0a.css.map": "/KingNelx/Profiling-System-Front-end-/static/css/main.073c9b0a.css.map",
+    "main.819e9a65.js.map": "/KingNelx/Profiling-System-Front-end-/static/js/main.819e9a65.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",

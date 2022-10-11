@@ -19,7 +19,7 @@ const LoginStudent = () => {
                         <label class="form-check-label" for="exampleCheck1">Validate</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Log in</button>
-                    <Link to="/" class="btn btn-primary mx-2">Go Back</Link>
+                    <Link to="/" class="btn btn-outline-success mx-2">Go Back</Link>
                     <Link to="/AdminCreate" className="px-2"> No Account? Sign up now. </Link>
                 </form>
             </div>

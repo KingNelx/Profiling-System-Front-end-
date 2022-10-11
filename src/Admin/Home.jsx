@@ -44,7 +44,7 @@ const Home = () => {
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title py-2">Total Students</h5>
+                                <h5 class="card-title py-2 fa fa-address-book"> Total Students</h5>
                                 <p class="card-text">There are 256 Total Students Enrolled.</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const Home = () => {
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Date</h5>
+                                <h5 class="card-title fa fa-calendar"> Date</h5>
                                 <DateToday />
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const Home = () => {
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Time</h5>
+                                <h5 class="card-title fa fa-hourglass-start">Time</h5>
                                 <Time />
                             </div>
                         </div>

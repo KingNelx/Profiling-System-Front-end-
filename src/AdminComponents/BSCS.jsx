@@ -8,8 +8,8 @@ const BSCS = () => {
                 <div class="row">
                     <div class="col">
                         <div class="card">
-                            <div class="card-header">
-                                Male
+                            <div class="card-header fa fa-male ">
+                                 Male
                             </div>
                             <div class="card-body">
                                 <Link class="btn btn-primary">Go navigate</Link>
@@ -18,7 +18,7 @@ const BSCS = () => {
                     </div>
                     <div class="col">
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header fa fa-female">
                                 Female
                             </div>
                             <div class="card-body">
@@ -28,7 +28,7 @@ const BSCS = () => {
                     </div>
                     <div class="col">
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header fa fa-paper-plane-o">
                                 Goback
                             </div>
                             <div class="card-body">

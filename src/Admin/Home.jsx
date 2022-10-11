@@ -75,7 +75,7 @@ const Home = () => {
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Mission</h5>
+                                <h5 class="card-title fa fa-clone"> Mission</h5>
                                 <p class="card-text">Some Information</p>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ const Home = () => {
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Vision</h5>
+                                <h5 class="card-title fa fa-clone"> Vision</h5>
                                 <p class="card-text">Some Information</p>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const Home = () => {
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Core Values</h5>
+                                <h5 class="card-title fa fa-clone"> Core Values</h5>
                                 <p class="card-text">Some Information</p>
                             </div>
                         </div>

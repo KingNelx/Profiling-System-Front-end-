@@ -4,7 +4,7 @@ const StudentLogin = () => {
         <div>
             <form>
                 <div className="container col-md-4 py-5 mt-5">
-                    <h2 className="mb-3"> Sign in </h2>
+                    <h2 className="mb-3">Student Sign in </h2>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />

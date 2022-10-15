@@ -7,6 +7,7 @@ import {
 import HomeLogin from './Components/HomeLogin';
 import AdminLogin from './AdminComponents/AdminLogin'
 import AdminReg from './AdminComponents/AdminReg'
+import AdminTopNav from './AdminComponents/AdminTopNav'
 import StudentLogin from './StudentComponents/StudentLogin';
 import StudentReg from './StudentComponents/StudentReg';
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="adminReg" element={<AdminReg />} />
         <Route path="studentLogin" element={<StudentLogin />} />
         <Route path="studentReg" element={<StudentReg />} />
+        <Route path="admintopNav" element={<AdminTopNav />} />
       </Routes>
     </Router>
   );

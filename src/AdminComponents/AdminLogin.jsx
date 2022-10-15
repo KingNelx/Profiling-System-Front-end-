@@ -22,7 +22,7 @@ const AdminLogin = () => {
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
-                    <Link class="btn btn-primary mx-2">Submit</Link>
+                    <Link to="/admintopNav" class="btn btn-primary mx-2">Submit</Link>
                     <Link to="/" class="btn btn-outline-success">Go Back</Link>
                     <Link to="/adminReg" className="mx-2">No Account? Sign up now!</Link>
                 </div>

@@ -27,7 +27,7 @@ const HomeLogin = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">STUDENT</h5>
-                                <Link to="/login" class="btn btn-primary">Log in</Link>
+                                <Link to="/studentLogin" class="btn btn-primary">Log in</Link>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-const Female = () => {
+const AdminTopNav = () => {
     return ( 
         <div>
             
@@ -6,4 +6,4 @@ const Female = () => {
      );
 }
  
-export default Female;
+export default AdminTopNav;

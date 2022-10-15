@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const AdminReg = () => {
     return (
         <div className="container mt-5 py-5">
-            <h2>Sign up</h2> 
+            <h2>Admin Sign up</h2> 
             <form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Firstname</label>

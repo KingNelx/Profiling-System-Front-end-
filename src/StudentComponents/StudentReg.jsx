@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const StudentReg = () => {
     return (
         <div className="container mt-5 py-5">
-            <h2>Sign up</h2> 
+            <h2>Student Sign up. </h2> 
             <form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Firstname</label>
@@ -40,6 +40,15 @@ const StudentReg = () => {
                 <div class="col-md-4">
                     <label for="inputZip" class="form-label">Password</label>
                     <input type="password" class="form-control" id="inputZip" />
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Program</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>BSIS</option>
+                        <option>BSIT</option>
+                        <option>BSCS</option>
+                    </select>
                 </div>
                 <div class="col-12">
                     <div class="form-check">

@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import AdminDashB from "./AdminDashB";
+
 const AdminTopNav = () => {
     return (
         <div>
@@ -7,7 +10,17 @@ const AdminTopNav = () => {
                         <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
                         ADMIN
                     </a>
-                    <div class="btn-group">
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            COURSES
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">BSIT</a></li>
+                            <li><a class="dropdown-item" href="#">BSIS</a></li>
+                            <li><a class="dropdown-item" href="#">BSCS</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group me-5 pe-5">
                         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             HOME
                         </button>
@@ -18,6 +31,9 @@ const AdminTopNav = () => {
                     </div>
                 </div>
             </nav>
+            <div className="mt-5">
+                <AdminDashB />
+            </div>
         </div>
     );
 }

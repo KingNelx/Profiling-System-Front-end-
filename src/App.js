@@ -10,6 +10,7 @@ import AdminReg from './AdminComponents/AdminReg'
 import AdminTopNav from './AdminComponents/AdminTopNav'
 import StudentLogin from './StudentComponents/StudentLogin';
 import StudentReg from './StudentComponents/StudentReg';
+import BSITDashB from './BSIT/BSITDashB';
 const App = () => {
   return (
     <Router>
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="studentLogin" element={<StudentLogin />} />
         <Route path="studentReg" element={<StudentReg />} />
         <Route path="admintopNav" element={<AdminTopNav />} />
+        <Route path="bsitDashB" element={<BSITDashB />} />
       </Routes>
     </Router>
   );

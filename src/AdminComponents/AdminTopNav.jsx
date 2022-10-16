@@ -15,7 +15,7 @@ const AdminTopNav = () => {
                             COURSES
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">BSIT</a></li>
+                            <li><Link to="/bsitDashB" class="dropdown-item" href="#">BSIT</Link></li>
                             <li><a class="dropdown-item" href="#">BSIS</a></li>
                             <li><a class="dropdown-item" href="#">BSCS</a></li>
                         </ul>

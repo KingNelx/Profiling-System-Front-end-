@@ -4,7 +4,7 @@ import AdminDashB from "./AdminDashB";
 const AdminTopNav = () => {
     return (
         <div>
-            <nav class="navbar bg-light">
+            <nav class="navbar bg-primary bg-info bg-gradient">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
@@ -29,6 +29,7 @@ const AdminTopNav = () => {
                             <li><Link to="/" class="dropdown-item" type="button">Sign out</Link></li>
                         </ul>
                     </div>
+                    
                 </div>
             </nav>
             <div className="mt-5">

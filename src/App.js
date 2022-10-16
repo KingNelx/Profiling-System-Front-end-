@@ -17,6 +17,7 @@ import BSIT1 from './BSIT/BSIT1';
 import BSIT2 from './BSIT/BSIT2';
 import BSIT3 from './BSIT/BSIT3';
 import BSIT4 from './BSIT/BSIT4';
+import StudentTopNav from './StudentComponents/StudentTopNav';
 const App = () => {
   return (
     <Router>
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="bsit2" element={<BSIT2 />} />
         <Route path="bsit3" element={<BSIT3 />} />
         <Route path="bsit4" element={<BSIT4 />} />
+        <Route path="studentTopNav" element={<StudentTopNav />} />
       </Routes>
     </Router>
   );

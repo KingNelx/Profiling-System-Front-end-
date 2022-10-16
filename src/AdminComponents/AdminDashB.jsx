@@ -1,3 +1,6 @@
+import DisplayDate from "../Components/DisplayDate";
+import DisplayTime from "../Components/DisplayTime";
+
 const AdminDashB = () => {
     return (
         <div>
@@ -7,11 +10,11 @@ const AdminDashB = () => {
                         <div class="card mx-auto mt-5" style={
                             { width: "18rem" }
                         }>
-                            <img src="..." class="card-img-top" alt="..." />
+                            <i class="fa-solid fa-user-tie fa-2xl"></i>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Total Student</h5>
+                                <p class="card-text">There are 246 total students.</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -19,11 +22,13 @@ const AdminDashB = () => {
                         <div class="card mx-auto mt-5" style={
                             { width: "18rem" }
                         }>
-                            <img src="..." class="card-img-top" alt="..." />
+                            {/* <img src="..." class="card-img-top" alt="..." /> */}
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Date</h5>
+                                <p class="card-text">
+                                    <DisplayDate />
+                                </p>
+                              
                             </div>
                         </div>
                     </div>
@@ -31,11 +36,11 @@ const AdminDashB = () => {
                         <div class="card mx-auto mt-5" style={
                             { width: "18rem" }
                         }>
-                            <img src="..." class="card-img-top" alt="..." />
+                            {/* <img src="..." class="card-img-top" alt="..." /> */}
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Time</h5>
+                                <p class="card-text"><DisplayTime /></p>
+                              
                             </div>
                         </div>
                     </div>

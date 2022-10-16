@@ -29,7 +29,17 @@ const AdminTopNav = () => {
                             <li><Link to="/" class="dropdown-item" type="button">Sign out</Link></li>
                         </ul>
                     </div>
-                    
+                    <div class="btn-group me-5 pe-5">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            REPORT
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><Link to="#" class="dropdown-item" type="button">Students Financial Status</Link></li>
+                            <li><Link to="#" class="dropdown-item" type="button">Students on Scholarship</Link></li>
+                            <li><Link to="#" class="dropdown-item" type="button">Students with Medical Conditions</Link></li>
+                            <li><Link to="#" class="dropdown-item" type="button">Lactating Women</Link></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div className="mt-5">

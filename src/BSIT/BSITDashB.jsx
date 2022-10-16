@@ -12,16 +12,16 @@ const BSITDashB = () => {
             </nav>
 
             <div className="container mt-5 py-5 ">
+                <h2 className="pb-5 text-center"> Bachelor of Science in Information Technology </h2>
                 <div class="container text-center d-flex justify-content-center">
                     <div class="row">
                         <div class="col">
                             <div class="card" style={
                                 { width: "18rem" }
                             }>
-                                <img src="..." class="card-img-top" alt="..." />
+                                <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">BSIT 1st Year</h5>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
@@ -30,10 +30,9 @@ const BSITDashB = () => {
                             <div class="card" style={
                                 { width: "18rem" }
                             }>
-                                <img src="..." class="card-img-top" alt="..." />
+                                <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">BSIT 2nd Year</h5>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
@@ -46,10 +45,9 @@ const BSITDashB = () => {
                             <div class="card" style={
                                 { width: "18rem" }
                             }>
-                                <img src="..." class="card-img-top" alt="..." />
+                                <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">BSIT 3rd Year</h5>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
@@ -58,10 +56,9 @@ const BSITDashB = () => {
                             <div class="card" style={
                                 { width: "18rem" }
                             }>
-                                <img src="..." class="card-img-top" alt="..." />
+                                <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">BSIT 4th Year</h5>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>

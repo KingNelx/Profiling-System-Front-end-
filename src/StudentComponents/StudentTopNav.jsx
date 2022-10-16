@@ -1,9 +1,12 @@
+import StudentDashB from "./StudentDashB";
+
 const StudentTopNav = () => {
-    return ( 
-        <div className="container">
-            
-        </div>
-     );
+    return (
+      <div>
+
+        <StudentDashB />
+      </div>
+    );
 }
- 
+
 export default StudentTopNav;

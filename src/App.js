@@ -11,6 +11,12 @@ import AdminTopNav from './AdminComponents/AdminTopNav'
 import StudentLogin from './StudentComponents/StudentLogin';
 import StudentReg from './StudentComponents/StudentReg';
 import BSITDashB from './BSIT/BSITDashB';
+import BSISDashB from './BSIS/BSISDashB';
+import BSCSDashB from './BSCS/BSCSDashB';
+import BSIT1 from './BSIT/BSIT1';
+import BSIT2 from './BSIT/BSIT2';
+import BSIT3 from './BSIT/BSIT3';
+import BSIT4 from './BSIT/BSIT4';
 const App = () => {
   return (
     <Router>
@@ -22,6 +28,12 @@ const App = () => {
         <Route path="studentReg" element={<StudentReg />} />
         <Route path="admintopNav" element={<AdminTopNav />} />
         <Route path="bsitDashB" element={<BSITDashB />} />
+        <Route path="bsisDashB" element={<BSISDashB />} />
+        <Route path="bscsDashB" element={<BSCSDashB />} /> 
+        <Route path="bsit1" element={<BSIT1 />} />
+        <Route path="bsit2" element={<BSIT2 />} />
+        <Route path="bsit3" element={<BSIT3 />} />
+        <Route path="bsit4" element={<BSIT4 />} />
       </Routes>
     </Router>
   );

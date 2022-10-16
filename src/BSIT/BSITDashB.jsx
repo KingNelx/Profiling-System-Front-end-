@@ -22,7 +22,7 @@ const BSITDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIT 1st Year</h5>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <Link to="/" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>

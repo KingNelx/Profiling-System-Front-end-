@@ -15,7 +15,6 @@ const PersonalBG = () => {
                     <label for="inputEmail4" class="form-label">Middle Name/Initial</label>
                     <input type="text" class="form-control" id="inputEmail4"/>
                 </div>
-                
                 <div class="col-6">
                     <label for="inputAddress2" class="form-label">Address 2</label>
                     <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>

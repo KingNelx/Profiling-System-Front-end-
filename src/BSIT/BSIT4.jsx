@@ -3,7 +3,7 @@ const BSIT4 = () => {
     return (
         <div>
             <div class="container text-center mx-auto py-auto mt-5 ">
-                <h2> BS Information Technology </h2>
+                <h2> BS Information Technology - 4</h2>
                 <div class="row">
                     <div class="col ">
                         <Link> <p> Male </p></Link>

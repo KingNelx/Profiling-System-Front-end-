@@ -19,6 +19,7 @@ import BSIT3 from './BSIT/BSIT3';
 import BSIT4 from './BSIT/BSIT4';
 import StudentTopNav from './StudentComponents/StudentTopNav';
 import PersonalBG from './StudentComponents/PersonalBG';
+import MyTest from './Test/MyTest';
 const App = () => {
   return (
     <Router>
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="bsit4" element={<BSIT4 />} />
         <Route path="studentTopNav" element={<StudentTopNav />} />
         <Route path="personalBG" element={<PersonalBG />} />
+        <Route path="test12" element={<MyTest />} />
       </Routes>
     </Router>
   );

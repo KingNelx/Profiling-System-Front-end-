@@ -33,7 +33,7 @@ const BSITDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIT 2nd Year</h5>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <Link to="/bsit2" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const BSITDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIT 3rd Year</h5>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <Link to="/bsit3" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const BSITDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIT 4th Year</h5>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <Link to="/bsit4" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>

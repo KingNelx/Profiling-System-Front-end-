@@ -17,6 +17,10 @@ import BSIT1 from './BSIT/BSIT1';
 import BSIT2 from './BSIT/BSIT2';
 import BSIT3 from './BSIT/BSIT3';
 import BSIT4 from './BSIT/BSIT4';
+import BSIS1 from './BSIS/BSIS1';
+import BSIS2 from './BSIS/BSIS2';
+import BSIS3 from './BSIS/BSIS3';
+import BSIS4 from './BSIS/BSIS4';
 import StudentTopNav from './StudentComponents/StudentTopNav';
 import PersonalBG from './StudentComponents/PersonalBG';
 import MyTest from './Test/MyTest';
@@ -37,6 +41,10 @@ const App = () => {
         <Route path="bsit2" element={<BSIT2 />} />
         <Route path="bsit3" element={<BSIT3 />} />
         <Route path="bsit4" element={<BSIT4 />} />
+        <Route path="bsis1" element={<BSIS1 />}/>
+        <Route path="bsis2" element={<BSIS2 />}/>
+        <Route path="bsis3" element={<BSIS3 />}/>
+        <Route path="bsis4" element={<BSIS4 />}/>
         <Route path="studentTopNav" element={<StudentTopNav />} />
         <Route path="personalBG" element={<PersonalBG />} />
         <Route path="test12" element={<MyTest />} />

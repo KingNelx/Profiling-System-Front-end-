@@ -12,7 +12,7 @@ const BSISDashB = () => {
             </nav>
 
             <div className="container mt-5 py-5 ">
-                <h2 className="pb-5 text-center"> Bachelor of Science in Information Technology </h2>
+                <h2 className="pb-5 text-center"> Bachelor of Science in Information System </h2>
                 <div class="container text-center d-flex justify-content-center">
                     <div class="row">
                         <div class="col">
@@ -21,8 +21,8 @@ const BSISDashB = () => {
                             }>
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">BSIT 1st Year</h5>
-                                    <Link to="/bsit1" class="btn btn-primary">Go somewhere</Link>
+                                    <h5 class="card-title">BSIS 1st Year</h5>
+                                    <Link to="/bsis1" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>
@@ -32,8 +32,8 @@ const BSISDashB = () => {
                             }>
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">BSIT 2nd Year</h5>
-                                    <Link to="/bsit2" class="btn btn-primary">Go somewhere</Link>
+                                    <h5 class="card-title">BSIS 2nd Year</h5>
+                                    <Link to="/bsis2" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +47,8 @@ const BSISDashB = () => {
                             }>
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">BSIT 3rd Year</h5>
-                                    <Link to="/bsit3" class="btn btn-primary">Go somewhere</Link>
+                                    <h5 class="card-title">BSIS 3rd Year</h5>
+                                    <Link to="/bsis3" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>
@@ -58,8 +58,8 @@ const BSISDashB = () => {
                             }>
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
-                                    <h5 class="card-title">BSIT 4th Year</h5>
-                                    <Link to="/bsit4" class="btn btn-primary">Go somewhere</Link>
+                                    <h5 class="card-title">BSIS 4th Year</h5>
+                                    <Link to="/bsis4" class="btn btn-primary">Go somewhere</Link>
                                 </div>
                             </div>
                         </div>

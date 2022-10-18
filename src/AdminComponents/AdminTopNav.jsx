@@ -16,8 +16,8 @@ const AdminTopNav = () => {
                         </button>
                         <ul class="dropdown-menu">
                             <li><Link to="/bsitDashB" class="dropdown-item" href="#">BSIT</Link></li>
-                            <li><a class="dropdown-item" href="#">BSIS</a></li>
-                            <li><a class="dropdown-item" href="#">BSCS</a></li>
+                            <li><Link to="/bsisDashB" class="dropdown-item" href="#">BSIS</Link></li>
+                            <li><Link to="/bscsDashB" class="dropdown-item" href="#">BSCS</Link></li>
                         </ul>
                     </div>
                     <div class="btn-group me-5 pe-5">

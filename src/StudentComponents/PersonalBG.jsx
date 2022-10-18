@@ -1,6 +1,8 @@
+import {Link} from "react-router-dom"
+
 const PersonalBG = () => {
     return (
-        <div className="container mt-3 py-3">
+        <div className="container mt-1 py-1">
             <h2> Personal Information </h2>
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-4">
@@ -90,7 +92,7 @@ const PersonalBG = () => {
                 </div>
                 <h3> Civil Status </h3>
                 <div class="d-flex p-2 ">
-                    <div class="form-check mx-2">
+                    <div class="form-check mx-2 ">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
                         <label class="form-check-label" for="flexRadioDefault1">
                             Single
@@ -115,7 +117,59 @@ const PersonalBG = () => {
                         </label>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Religion </label>
+                    <input type="email" class="form-control" id="validationCustom02" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom04" class="form-label">Language</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                        <option>...</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Date of Birth</label>
+                    <input type="text" class="form-control" id="validationCustom01" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Place of Birth</label>
+                    <input type="text" class="form-control" id="validationCustom01" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Permanent Address </label>
+                    <input type="email" class="form-control" id="validationCustom02" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                {/* Current Address */}
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Current Address </label>
+                    <input type="email" class="form-control" id="validationCustom02" required />
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+              <div>
+              <Link to ="/studentTopNav" className="btn btn-primary"> Submit </Link>
+              </div>
             </form>
+            
         </div>
     );
 }

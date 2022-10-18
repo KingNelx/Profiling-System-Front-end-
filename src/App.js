@@ -28,6 +28,7 @@ import BSCS4 from './BSCS/BSCS4';
 import StudentTopNav from './StudentComponents/StudentTopNav';
 import PersonalBG from './StudentComponents/PersonalBG';
 import MyTest from './Test/MyTest';
+import EducationalBG from './StudentComponents/EducationalBG';
 const App = () => {
   return (
     <Router>
@@ -55,6 +56,7 @@ const App = () => {
         <Route path="bscs4" element={<BSCS4 />} />
         <Route path="studentTopNav" element={<StudentTopNav />} />
         <Route path="personalBG" element={<PersonalBG />} />
+        <Route path="educationalBG" element={<EducationalBG />} />
         <Route path="test12" element={<MyTest />} />
       </Routes>
     </Router>

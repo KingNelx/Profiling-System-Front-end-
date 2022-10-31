@@ -10,7 +10,7 @@ const AdminTopNav = () => {
                         <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
                         ADMIN
                     </a>
-                    <div class="btn-group dropend">
+                    <div class="btn-group me-5 pe-5">
                         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             COURSES
                         </button>

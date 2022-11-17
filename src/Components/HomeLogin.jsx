@@ -15,6 +15,7 @@ const HomeLogin = () => {
             <img src="https://www.catanduanesstateu.edu.ph/image/cict-logo.png" alt="Bootstrap" width="50" height="50" className="rounded mx-2 shadow "/>
                 <span className="text-uppercase fs-5">College of Information and Communications Technology</span>
             </nav>
+            <p className="text-center mt-3"> Welcome to Profiling System. </p>
             <div class="container text-center mt-5 py-5 d-flex justify-content-center bg-primary shadow-lg">
                 <div class="row">
                     <div class="col">
@@ -46,7 +47,6 @@ const HomeLogin = () => {
 
                 </div>
             </div>
-            <p className="text-center"> Welcome to Profiling System. </p>
         </div>
     );
 }

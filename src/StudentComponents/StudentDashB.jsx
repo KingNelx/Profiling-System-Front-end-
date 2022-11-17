@@ -4,10 +4,10 @@ import DisplayTime from "../Components/DisplayTime";
 const StudentDashB = () => {
     return (
         <div>
-            <div class="container text-center mt-3 py-3">
+            <div class="container text-center mt-3 py-3 shadow-lg">
                 <div class="row">
                     <div class="col">
-                        <div class="card mx-auto" style={{
+                        <div class="card mx-auto shadow-lg bg-primary" style={{
                             width: "18rem"
                         }}>
                             <img src="https://www.catanduanesstateu.edu.ph/image/cict-logo.png" class="card-img-top rounded" alt="..." />
@@ -18,8 +18,8 @@ const StudentDashB = () => {
                             </div> */}
                         </div>
                     </div>
-                    <div class="col">
-                    <div class="card mx-auto mt-5" style={
+                    <div class="col ">
+                    <div class="card mx-auto mt-5 shadow-lg bg-warning" style={
                             { width: "18rem" }
                         }>
                             <i class="fa-regular fa-calendar-days fa-2xl"></i>
@@ -33,7 +33,7 @@ const StudentDashB = () => {
                         </div>
                     </div>
                     <div class="col">
-                    <div class="card mx-auto mt-5 " style={
+                    <div class="card mx-auto mt-5 shadow-lg bg-warning" style={
                             { width: "18rem" }
                         }>
                             <i class="fa-solid fa-clock fa-2xl"></i>
@@ -52,7 +52,7 @@ const StudentDashB = () => {
                 <hr />
                 <div class="row">
                     <div class="col">
-                        <div class="card" style={
+                        <div class="card bg-info" style={
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">
@@ -64,7 +64,7 @@ const StudentDashB = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style={
+                        <div class="card bg-info" style={
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">
@@ -76,7 +76,7 @@ const StudentDashB = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style={
+                        <div class="card bg-info" style={
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">

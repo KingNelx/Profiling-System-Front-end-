@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const StudentReg = () => {
     return (
         <div className="container mt-5 py-5">
-            <h2>Student Sign up. </h2> 
+            <h2 className="text-center">Student Sign up. </h2> 
             <form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Firstname</label>
@@ -54,12 +54,12 @@ const StudentReg = () => {
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck" />
                             <label class="form-check-label" for="gridCheck">
-                                Check me out
+                               Confirm
                             </label>
                     </div>
                 </div>
                 <div class="col-12">
-                    <Link to="/adminLogin" type="submit" class="btn btn-primary">Create Account</Link>
+                    <Link to="/studentLogin" type="submit" class="btn btn-primary">Create Account</Link>
                 </div>
             </form>
         </div>

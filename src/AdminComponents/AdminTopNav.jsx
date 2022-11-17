@@ -26,7 +26,7 @@ const AdminTopNav = () => {
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><button class="dropdown-item" type="button">Profile</button></li>
-                            <li><button class="dropdown-item" type="button">Sign out</button></li>
+                            <li><Link to ="/" class="dropdown-item" type="button">Sign out</Link></li>
                         </ul>
                     </div>
                 </div>

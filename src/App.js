@@ -29,6 +29,7 @@ import StudentTopNav from './StudentComponents/StudentTopNav';
 import PersonalBG from './StudentComponents/PersonalBG';
 import MyTest from './Test/MyTest';
 import EducationalBG from './StudentComponents/EducationalBG';
+import AdminProfile from './AdminComponents/AdminProfile';
 const App = () => {
   return (
     <Router>
@@ -41,15 +42,15 @@ const App = () => {
         <Route path="admintopNav" element={<AdminTopNav />} />
         <Route path="bsitDashB" element={<BSITDashB />} />
         <Route path="bsisDashB" element={<BSISDashB />} />
-        <Route path="bscsDashB" element={<BSCSDashB />} /> 
+        <Route path="bscsDashB" element={<BSCSDashB />} />
         <Route path="bsit1" element={<BSIT1 />} />
         <Route path="bsit2" element={<BSIT2 />} />
         <Route path="bsit3" element={<BSIT3 />} />
         <Route path="bsit4" element={<BSIT4 />} />
-        <Route path="bsis1" element={<BSIS1 />}/>
-        <Route path="bsis2" element={<BSIS2 />}/>
-        <Route path="bsis3" element={<BSIS3 />}/>
-        <Route path="bsis4" element={<BSIS4 />}/>
+        <Route path="bsis1" element={<BSIS1 />} />
+        <Route path="bsis2" element={<BSIS2 />} />
+        <Route path="bsis3" element={<BSIS3 />} />
+        <Route path="bsis4" element={<BSIS4 />} />
         <Route path="bscs1" element={<BSCS1 />} />
         <Route path="bscs2" element={<BSCS2 />} />
         <Route path="bscs3" element={<BSCS3 />} />
@@ -57,6 +58,7 @@ const App = () => {
         <Route path="studentTopNav" element={<StudentTopNav />} />
         <Route path="personalBG" element={<PersonalBG />} />
         <Route path="educationalBG" element={<EducationalBG />} />
+        <Route path="adminProfile" element={<AdminProfile />} />
         <Route path="test12" element={<MyTest />} />
       </Routes>
     </Router>

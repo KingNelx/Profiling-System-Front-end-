@@ -47,12 +47,12 @@ const AdminDashB = () => {
                 </div>
             </div>
 
-            <div class="container text-center mt-3 py-3">
+            <div class="container text-center mt-5 py-3 shadow-lg">
                 <h2> CICT PROFILE </h2>
                 <hr />
                 <div class="row">
                     <div class="col">
-                        <div class="card" style={
+                        <div class="card shadow-lg" style={
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">
@@ -64,7 +64,7 @@ const AdminDashB = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style={
+                        <div class="card shadow-lg" style={
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">
@@ -76,7 +76,7 @@ const AdminDashB = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style={
+                        <div class="card shadow-lg" style={
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">

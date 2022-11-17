@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import AdminDashB from "./AdminDashB";
+import AdminProfile from "./AdminProfile";
 
 const AdminTopNav = () => {
     return (
@@ -21,30 +22,25 @@ const AdminTopNav = () => {
                         </ul>
                     </div>
                     <div class="btn-group me-5 pe-5">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <Link to ="/" type="button" class="btn btn-primary " aria-expanded="false">
                             HOME
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><Link to="/adminProfile" class="dropdown-item" type="button">Edit Profile</Link></li>
-                            <li><Link to="/" class="dropdown-item" type="button">Sign out</Link></li>
-                        </ul>
+                        </Link>
                         <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                           Profile
+                            Profile
                         </button>
 
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Admin Profile</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        HERE
+                                        <AdminProfile />
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
                                     </div>
                                 </div>
                             </div>

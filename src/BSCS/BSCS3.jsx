@@ -71,9 +71,9 @@ const BSCS3 = () => {
                     </tbody>
                 </table>
             </div>
-            <footer className="text-center">
+            {/* <footer className="text-center">
                 <Link to="/bscsDashB"> Go Back </Link>
-            </footer>
+            </footer> */}
         </div>
     );
 }

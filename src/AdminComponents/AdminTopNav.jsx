@@ -4,20 +4,20 @@ import AdminDashB from "./AdminDashB";
 const AdminTopNav = () => {
     return (
         <div>
-            <nav class="navbar bg-light">
+            <nav class="navbar bg-primary bg-info bg-gradient">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
                         ADMIN
                     </a>
-                    <div class="btn-group dropend">
+                    <div class="btn-group me-5 pe-5">
                         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             COURSES
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">BSIT</a></li>
-                            <li><a class="dropdown-item" href="#">BSIS</a></li>
-                            <li><a class="dropdown-item" href="#">BSCS</a></li>
+                            <li><Link to="/bsitDashB" class="dropdown-item" href="#">BSIT</Link></li>
+                            <li><Link to="/bsisDashB" class="dropdown-item" href="#">BSIS</Link></li>
+                            <li><Link to="/bscsDashB" class="dropdown-item" href="#">BSCS</Link></li>
                         </ul>
                     </div>
                     <div class="btn-group me-5 pe-5">
@@ -26,7 +26,7 @@ const AdminTopNav = () => {
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><button class="dropdown-item" type="button">Profile</button></li>
-                            <li><Link to ="/" class="dropdown-item" type="button">Sign out</Link></li>
+                            <li><button class="dropdown-item" type="button">Sign out</button></li>
                         </ul>
                     </div>
                 </div>

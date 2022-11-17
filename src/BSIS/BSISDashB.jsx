@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 const BSISDashB = () => {
     return (
         <div>
-            <nav class="navbar bg-light">
+            <nav class="navbar bg-warning">
                 <div class="container-fluid">
                     <Link to="/admintopNav" class="navbar-brand" href="#">
                         <img src="https://cdn-icons-png.flaticon.com/512/13/13964.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top mx-2" />
@@ -22,7 +22,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 1st Year</h5>
-                                    <Link to="/bsis1" class="btn btn-primary">Go somewhere</Link>
+                                    <Link to="/bsis1" class="btn btn-primary">View</Link>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 2nd Year</h5>
-                                    <Link to="/bsis2" class="btn btn-primary">Go somewhere</Link>
+                                    <Link to="/bsis2" class="btn btn-primary">View</Link>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 3rd Year</h5>
-                                    <Link to="/bsis3" class="btn btn-primary">Go somewhere</Link>
+                                    <Link to="/bsis3" class="btn btn-primary">View</Link>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 4th Year</h5>
-                                    <Link to="/bsis4" class="btn btn-primary">Go somewhere</Link>
+                                    <Link to="/bsis4" class="btn btn-primary">View</Link>
                                 </div>
                             </div>
                         </div>

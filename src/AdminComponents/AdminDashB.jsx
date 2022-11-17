@@ -4,10 +4,10 @@ import DisplayTime from "../Components/DisplayTime";
 const AdminDashB = () => {
     return (
         <div>
-            <div class="container text-center">
+            <div class="container text-center shadow-lg py-4 bg-warning">
                 <div class="row ">
                     <div class="col ">
-                        <div class="card mx-auto mt-5" style={
+                        <div class="card mx-auto mt-5 shadow-lg" style={
                             { width: "18rem" }
                         }>
                             <i class="fa-solid fa-user-tie fa-2xl"></i>
@@ -19,7 +19,7 @@ const AdminDashB = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mx-auto mt-5" style={
+                        <div class="card mx-auto mt-5 shadow-lg" style={
                             { width: "18rem" }
                         }>
                             <i class="fa-regular fa-calendar-days fa-2xl"></i>
@@ -33,7 +33,7 @@ const AdminDashB = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mx-auto mt-5 " style={
+                        <div class="card mx-auto mt-5 shadow-lg" style={
                             { width: "18rem" }
                         }>
                             <i class="fa-solid fa-clock fa-2xl"></i>

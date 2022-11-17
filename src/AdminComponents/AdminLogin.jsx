@@ -20,7 +20,7 @@ const AdminLogin = () => {
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
                     </div>
                     <Link to="/admintopNav" class="btn btn-primary mx-2">Submit</Link>
                     <Link to="/" class="btn btn-outline-success">Go Back</Link>

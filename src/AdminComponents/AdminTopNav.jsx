@@ -21,7 +21,7 @@ const AdminTopNav = () => {
                             <li><Link to="/bscsDashB" class="dropdown-item" href="#">BSCS</Link></li>
                         </ul>
                     </div>
-                    <div class="btn-group me-5 pe-5">
+                    <div class="btn-group ">
                         <Link to ="/" type="button" class="btn btn-outline-primary " aria-expanded="false">
                             HOME
                         </Link>

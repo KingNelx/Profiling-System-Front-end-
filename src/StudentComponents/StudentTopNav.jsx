@@ -5,7 +5,7 @@ import StudentDashB from "./StudentDashB";
 const StudentTpoNav = () => {
     return (
         <div>
-            <nav class="navbar bg-primary bg-info bg-gradient ">
+            <nav class="navbar bg-light shadow-lg ">
                 <div class="container-fluid ">
                     <a class="navbar-brand" href="#">
                         <img src="https://laconcordia.edu.ph/assets/icon/stu.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />

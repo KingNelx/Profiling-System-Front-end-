@@ -82,7 +82,7 @@ const HomeLogin = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">FACULTY</h5>
-                                <Link to="/adminLogin" class="btn btn-outline-primary">Log in</Link>
+                                <Link to="/facultyLogin" class="btn btn-outline-primary">Log in</Link>
                             </div>
                         </div>
                     </div>

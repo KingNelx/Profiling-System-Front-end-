@@ -30,6 +30,8 @@ import PersonalBG from './StudentComponents/PersonalBG';
 import MyTest from './Test/MyTest';
 import EducationalBG from './StudentComponents/EducationalBG';
 import AdminProfile from './AdminComponents/AdminProfile';
+import FacultyLogin from './FacultyComponents/FacultyLogin';
+import FacultyTopNav from './FacultyComponents/FacultyTopNav';
 const App = () => {
   return (
     <Router>
@@ -59,6 +61,8 @@ const App = () => {
         <Route path="personalBG" element={<PersonalBG />} />
         <Route path="educationalBG" element={<EducationalBG />} />
         <Route path="adminProfile" element={<AdminProfile />} />
+        <Route path="facultyLogin" element={<FacultyLogin />} />
+        <Route path="faultyTopnav" element={<FacultyTopNav />} />
         <Route path="test12" element={<MyTest />} />
       </Routes>
     </Router>

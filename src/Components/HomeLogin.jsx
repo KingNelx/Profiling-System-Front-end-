@@ -13,14 +13,14 @@ const HomeLogin = () => {
             </nav> */}
             <nav className=" bg-warning text-dark text-center py-4 shadow-lg ">
             <img src="https://www.catanduanesstateu.edu.ph/image/cict-logo.png" alt="Bootstrap" width="50" height="50" className="rounded mx-2 shadow "/>
-                <span className="text-uppercase fs-5">College of Information and Communications Technology</span>
+                <span className="text-uppercase fs-5">Profiling System</span>
             </nav>
-            <p className="text-center mt-3"> Welcome to Profiling System. </p>
+            {/* <p className="text-center mt-3"> Welcome to Profiling System. </p> */}
             <section>
            
-<button type="button" class="btn btn-primary mx-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+{/* <button type="button" class="btn btn-primary mx-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Click me First
-</button>
+</button> */}
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">

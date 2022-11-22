@@ -5,13 +5,13 @@ import AdminProfile from "./AdminProfile";
 const AdminTopNav = () => {
     return (
         <div>
-            <nav class="navbar bg-primary bg-info bg-gradient ">
+            <nav class="navbar bg-light bg-info shadow-lg py-3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
-                        ADMIN
+                        ADMIN Dashboard
                     </a>
-                    <div class="btn-group me-5 pe-5">
+                    <div class="btn-group px-2 ms-auto">
                         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             COURSES
                         </button>
@@ -22,7 +22,7 @@ const AdminTopNav = () => {
                         </ul>
                     </div>
                     <div class="btn-group me-5 pe-5">
-                        <Link to ="/" type="button" class="btn btn-primary " aria-expanded="false">
+                        <Link to ="/" type="button" class="btn btn-outline-primary " aria-expanded="false">
                             HOME
                         </Link>
                         <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">

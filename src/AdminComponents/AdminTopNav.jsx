@@ -11,7 +11,7 @@ const AdminTopNav = () => {
                         <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
                         ADMIN Dashboard
                     </a>
-                    <div class="btn-group px-2 ms-auto">
+                    <div class="btn-group px-1 ms-auto">
                         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             COURSES
                         </button>
@@ -21,8 +21,19 @@ const AdminTopNav = () => {
                             <li><Link to="/bscsDashB" class="dropdown-item" href="#">BSCS</Link></li>
                         </ul>
                     </div>
+                    <div class="btn-group px-1 ">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            REPORTS
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><Link to="#" class="dropdown-item" href="#">Students Financial Status</Link></li>
+                            <li><Link to="#" class="dropdown-item" href="#">Students on Scholarship</Link></li>
+                            <li><Link to="#" class="dropdown-item" href="#">Students with Medical Conditions</Link></li>
+                            <li><Link to="#" class="dropdown-item" href="#">Lactating Women</Link></li>
+                        </ul>
+                    </div>
                     <div class="btn-group ">
-                        <Link to ="/" type="button" class="btn btn-outline-primary " aria-expanded="false">
+                        <Link to="/" type="button" class="btn btn-outline-primary " aria-expanded="false">
                             HOME
                         </Link>
                         <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">

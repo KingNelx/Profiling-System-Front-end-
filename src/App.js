@@ -32,6 +32,10 @@ import EducationalBG from './StudentComponents/EducationalBG';
 import AdminProfile from './AdminComponents/AdminProfile';
 import FacultyLogin from './FacultyComponents/FacultyLogin';
 import FacultyTopNav from './FacultyComponents/FacultyTopNav';
+import FinancialStatus from './Reports/FinancialStatus';
+import Scholarship from './Reports/Scholarship';
+import MedicalConditions from './Reports/MedicalConditions';
+import LactatingWomen from './Reports/LactatingWomen';
 const App = () => {
   return (
     <Router>
@@ -63,6 +67,10 @@ const App = () => {
         <Route path="adminProfile" element={<AdminProfile />} />
         <Route path="facultyLogin" element={<FacultyLogin />} />
         <Route path="faultyTopnav" element={<FacultyTopNav />} />
+        <Route path="financialStatus" element={<FinancialStatus />} />
+        <Route path="studentScoolarship" element={<Scholarship />} />
+        <Route path="medicalConditions" element={<MedicalConditions />} />
+        <Route path="lactatingWomen" element={<LactatingWomen />} />
         <Route path="test12" element={<MyTest />} />
       </Routes>
     </Router>

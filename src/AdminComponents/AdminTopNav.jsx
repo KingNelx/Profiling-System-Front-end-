@@ -8,7 +8,7 @@ const AdminTopNav = () => {
             <nav class="navbar bg-light bg-info shadow-lg py-3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
+                        {/* <img src="https://www.shareicon.net/data/2015/05/04/33366_administrator_256x256.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" /> */}
                         ADMIN Dashboard
                     </a>
                     <div class="btn-group px-1 ms-auto">
@@ -26,10 +26,10 @@ const AdminTopNav = () => {
                             REPORTS
                         </button>
                         <ul class="dropdown-menu">
-                            <li><Link to="#" class="dropdown-item" href="#">Students Financial Status</Link></li>
-                            <li><Link to="#" class="dropdown-item" href="#">Students on Scholarship</Link></li>
-                            <li><Link to="#" class="dropdown-item" href="#">Students with Medical Conditions</Link></li>
-                            <li><Link to="#" class="dropdown-item" href="#">Lactating Women</Link></li>
+                            <li><Link to="/financialStatus" class="dropdown-item" href="#">Students Financial Status</Link></li>
+                            <li><Link to="/studentScholarship" class="dropdown-item" href="#">Students on Scholarship</Link></li>
+                            <li><Link to="/medicalConditions" class="dropdown-item" href="#">Students with Medical Conditions</Link></li>
+                            <li><Link to="/lactatingWomen" class="dropdown-item" href="#">Lactating Women</Link></li>
                         </ul>
                     </div>
                     <div class="btn-group ">

@@ -8,11 +8,11 @@ const StudentTpoNav = () => {
             <nav class="navbar bg-light shadow-lg ">
                 <div class="container-fluid ">
                     <a class="navbar-brand" href="#">
-                        <img src="https://laconcordia.edu.ph/assets/icon/stu.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" />
+                        {/* <img src="https://laconcordia.edu.ph/assets/icon/stu.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" /> */}
                         STUDENT
                     </a>
                     <div class="btn-group ms-auto px-2">
-                        <Link to="/" type="button" class="btn btn-primary " >
+                        <Link to="/" type="button" class="btn btn-outline-primary" >
                             HOME
                         </Link>
                         <ul class="dropdown-menu dropdown-menu-end">

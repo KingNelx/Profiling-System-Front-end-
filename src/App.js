@@ -36,6 +36,11 @@ import FinancialStatus from './Reports/FinancialStatus';
 import Scholarship from './Reports/Scholarship';
 import MedicalConditions from './Reports/MedicalConditions';
 import LactatingWomen from './Reports/LactatingWomen';
+import FinancialReports from './ReportsTable/FinancialReports';
+import LactatingReports from './ReportsTable/LactatingReports';
+import MedicalReports from './ReportsTable/MedicalReports';
+import ScholarReports from './ReportsTable/ScholarshipReports';
+
 const App = () => {
   return (
     <Router>
@@ -72,6 +77,10 @@ const App = () => {
         <Route path="medicalConditions" element={<MedicalConditions />} />
         <Route path="lactatingWomen" element={<LactatingWomen />} />
         <Route path="test12" element={<MyTest />} />
+        <Route path="financialR" element={<FinancialReports />} />
+        <Route path="lactatingR" element={<LactatingReports />} />
+        <Route path="medicalR" element={<MedicalReports />} />
+        <Route path="scholarR" element={<ScholarReports />} />
       </Routes>
     </Router>
   );

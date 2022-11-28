@@ -74,9 +74,9 @@ const BSIS2 = () => {
                             </tbody>
                         </table>
                     </div>
-                    {/* <footer className="text-center">
-                        <Link to="/bsitDashB"> Go Back </Link>
-                    </footer> */}
+                    <footer className="text-center">
+                    <Link to="/bsisDashB"> Go Back </Link>
+                </footer>
                 </div>
             </div>
         </div>

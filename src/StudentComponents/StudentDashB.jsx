@@ -1,6 +1,6 @@
 import DisplayDate from "../Components/DisplayDate";
 import DisplayTime from "../Components/DisplayTime";
-
+import cict from "../Image/cict.jpg"
 const StudentDashB = () => {
     return (
         <div>
@@ -10,7 +10,7 @@ const StudentDashB = () => {
                         <div class="card mx-auto shadow-lg bg-primary" style={{
                             width: "18rem"
                         }}>
-                            <img src="https://www.catanduanesstateu.edu.ph/image/cict-logo.png" class="card-img-top rounded" alt="..." />
+                            <img src={cict} class="card-img-top rounded" alt="..." />
                             {/* <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

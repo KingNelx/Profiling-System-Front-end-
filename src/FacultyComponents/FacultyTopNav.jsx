@@ -1,5 +1,6 @@
 import FacultyDashB from "./FacultyDashB";
 import { Link } from "react-router-dom"
+import FacultyProfile from "./FacultyProfile";
 
 const FacultyTopNav = () => {
   return (
@@ -29,8 +30,9 @@ const FacultyTopNav = () => {
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <table class="table table-striped text-center">
-                      <thead>
+                    <FacultyProfile />
+                     <table class="table table-striped text-center">
+                      {/* <thead>
                         <tr>
                           <th scope="col">First name</th>
                           <th scope="col">Last name</th>
@@ -45,7 +47,7 @@ const FacultyTopNav = () => {
                           <td>Admin@gmail.com</td>
                           <td>09123......</td>
                         </tr>
-                      </tbody>
+                      </tbody> */}
                     </table>
                   </div>
                   <div class="modal-footer">

@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom"
 import BSIS1 from "./BSIS1";
+import BSIS2 from "./BSIS2";
+import BSIS3 from "./BSIS3";
+import BSIS4 from "./BSIS4";
+
 const BSISDashB = () => {
     return (
         <div>
@@ -23,27 +27,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 1st Year</h5>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        View
-                                    </button>
-
-
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">List of Students</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <BSIS1 />
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <Link to="/bsis1"><button className="btn btn-primary">View</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -54,27 +38,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 2nd Year</h5>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        View
-                                    </button>
-
-
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">List of Students</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <BSIS1 />
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <Link to="/bsis2"><button className="btn btn-primary">View</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -89,27 +53,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 3rd Year</h5>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        View
-                                    </button>
-
-
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">List of Students</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <BSIS1 />
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <Link to="/bsis3"><button className="btn btn-primary">View</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -120,27 +64,7 @@ const BSISDashB = () => {
                                 <i class="fa-sharp fa-solid fa-chalkboard-user fa-2xl"></i>
                                 <div class="card-body">
                                     <h5 class="card-title">BSIS 4th Year</h5>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        View
-                                    </button>
-
-
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">List of Students</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <BSIS1 />
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <Link to="/bsis4"><button className="btn btn-primary">View</button></Link>
                                 </div>
                             </div>
                         </div>

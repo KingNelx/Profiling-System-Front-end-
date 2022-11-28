@@ -12,8 +12,7 @@ const HomeLogin = () => {
                 </div>
             </nav> */}
             <nav className=" bg-warning text-dark text-center py-4 shadow-lg ">
-                <img src="https://www.catanduanesstateu.edu.ph/image/cict-logo.png" alt="Bootstrap" width="50" height="50" className="rounded mx-2 shadow " />
-                <span className="text-uppercase fs-5">Profiling System</span>
+              <span className="text-uppercase fs-5">Profiling System</span>
             </nav>
             {/* <p className="text-center mt-3"> Welcome to Profiling System. </p> */}
             <section>

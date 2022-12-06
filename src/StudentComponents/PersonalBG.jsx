@@ -1,6 +1,18 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
+import axios from "axios"
+import { useState, useEffect } from "react";
 
 const PersonalBG = () => {
+    
+    const loadStudentData = () => {
+        const dataLoad = axios.get
+    }
+    const [student, setStudent] = useState([])
+
+    useEffect(() => {
+
+    }, [])
+
     return (
         <div className="container mt-1 py-1">
             <h2> Personal Information </h2>
@@ -165,11 +177,11 @@ const PersonalBG = () => {
                         Looks good!
                     </div>
                 </div>
-              <div>
-              <Link to ="/studentTopNav" className="btn btn-primary"> Submit </Link>
-              </div>
+                <div>
+                    <Link to="/studentTopNav" className="btn btn-primary"> Submit </Link>
+                </div>
             </form>
-            
+
         </div>
     );
 }

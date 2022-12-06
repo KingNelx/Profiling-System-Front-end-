@@ -40,6 +40,7 @@ import FinancialReports from './ReportsTable/FinancialReports';
 import LactatingReports from './ReportsTable/LactatingReports';
 import MedicalReports from './ReportsTable/MedicalReports';
 import ScholarReports from './ReportsTable/ScholarshipReports';
+import FamilyBG from './StudentComponents/FamilyBG';
 
 const App = () => {
   return (
@@ -81,6 +82,7 @@ const App = () => {
         <Route path="lactatingR" element={<LactatingReports />} />
         <Route path="medicalR" element={<MedicalReports />} />
         <Route path="scholarR" element={<ScholarReports />} />
+        <Route path="familyBG" element={<FamilyBG />} />
       </Routes>
     </Router>
   );

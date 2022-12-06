@@ -41,6 +41,9 @@ import LactatingReports from './ReportsTable/LactatingReports';
 import MedicalReports from './ReportsTable/MedicalReports';
 import ScholarReports from './ReportsTable/ScholarshipReports';
 import FamilyBG from './StudentComponents/FamilyBG';
+import AllBSIT from './FacultyComponents/AllBSIT';
+import AllBSIS from './FacultyComponents/AllBSIS';
+import AllBSCS from './FacultyComponents/AllBSCS';
 
 const App = () => {
   return (
@@ -83,6 +86,9 @@ const App = () => {
         <Route path="medicalR" element={<MedicalReports />} />
         <Route path="scholarR" element={<ScholarReports />} />
         <Route path="familyBG" element={<FamilyBG />} />
+        <Route path="allBSIT" element={<AllBSIT />} />
+        <Route path="allBSIS" element={<AllBSIS />} />
+        <Route path="allBSCS" element={<AllBSCS />} />
       </Routes>
     </Router>
   );

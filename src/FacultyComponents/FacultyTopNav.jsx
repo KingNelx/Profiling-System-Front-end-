@@ -57,10 +57,10 @@ const FacultyTopNav = () => {
               </div>
             </div>
 
-            <ul class="dropdown-menu dropdown-menu-end">
+            {/* <ul class="dropdown-menu dropdown-menu-end">
               <li><Link to="#" class="dropdown-item" type="button">Profile</Link></li>
               <li><Link to="/" class="dropdown-item" type="button">Sign out</Link></li>
-            </ul>
+            </ul> */}
           </div>
           <div class="btn-group">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">

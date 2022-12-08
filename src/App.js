@@ -44,6 +44,12 @@ import FamilyBG from './StudentComponents/FamilyBG';
 import AllBSIT from './FacultyComponents/AllBSIT';
 import AllBSIS from './FacultyComponents/AllBSIS';
 import AllBSCS from './FacultyComponents/AllBSCS';
+import StudentsByCourse from './NewReports/StudentsByCourse';
+import StudentsByMunicipality from './NewReports/StudentsByMunicipality';
+import StudentsBySchoolar from './NewReports/StudentsBySchoolar';
+import StudentsBySex from './NewReports/StudentsBySex';
+import StudentsByYearLvl from './NewReports/StudentsByYearLvl';
+import StudentsWithGadgets from './NewReports/StudentsWithGadgets';
 
 const App = () => {
   return (
@@ -89,6 +95,12 @@ const App = () => {
         <Route path="allBSIT" element={<AllBSIT />} />
         <Route path="allBSIS" element={<AllBSIS />} />
         <Route path="allBSCS" element={<AllBSCS />} />
+        <Route path="byCourse" element={<StudentsByCourse />} />
+        <Route path="byMunicipality" element={<StudentsByMunicipality />} />
+        <Route path="bySchoolar" element={<StudentsBySchoolar />} />
+        <Route path="bySex" element={<StudentsBySex />} />
+        <Route path="byYearLvl" element={<StudentsByYearLvl />} />
+        <Route path="withGadgets" element={<StudentsWithGadgets />} />
       </Routes>
     </Router>
   );

@@ -26,10 +26,12 @@ const AdminTopNav = () => {
                             REPORTS
                         </button>
                         <ul class="dropdown-menu">
-                            <li><Link to="/financialStatus" class="dropdown-item" href="#">Students Financial Status</Link></li>
-                            <li><Link to="/studentScholarship" class="dropdown-item" href="#">Students on Scholarship</Link></li>
-                            <li><Link to="/medicalConditions" class="dropdown-item" href="#">Students with Medical Conditions</Link></li>
-                            <li><Link to="/lactatingWomen" class="dropdown-item" href="#">Lactating Women</Link></li>
+                            <li><Link to="/byCourse" class="dropdown-item" href="#">List of Students by Course</Link></li>
+                            <li><Link to="/byYearLvl" class="dropdown-item" href="#">List of Students by Year Level</Link></li>
+                            <li><Link to="/bySex" class="dropdown-item" href="#">List of Students by Sex</Link></li>
+                            <li><Link to="/byMunicipality" class="dropdown-item" href="#">List of Students by Municipality</Link></li>
+                            <li><Link to="/bySchoolar" class="dropdown-item" href="#">List of Students by Schoolarship</Link></li>
+                            <li><Link to="/withGadgets" class="dropdown-item" href="#">List of Students with Gadgets</Link></li>
                         </ul>
                     </div>
                     <div class="btn-group ">

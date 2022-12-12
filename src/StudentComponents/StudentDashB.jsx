@@ -58,10 +58,10 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Mission</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">-CICT Mission</h6>
-                                <p class="card-text">
+                                {/* <p class="card-text">
                                     Foster excellence, holistic outcome-based education
                                     compliant with the requirements of diverse world market and contribute to the development of productive and value-laden lives.
-                                </p>
+                                </p> */}
 
                             </div>
                         </div>
@@ -73,9 +73,9 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Vission</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">-CICT Vission</h6>
-                                <p class="card-text">
+                                {/* <p class="card-text">
                                     A green university globally engaged in island research and innovations for societal advancement
-                                </p>
+                                </p> */}
 
                             </div>
                         </div>
@@ -87,10 +87,10 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Core Values</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">-CICT Core Values</h6>
-                                <p class="card-text">
+                                {/* <p class="card-text">
                                     Foster excellence, holistic outcome-based education
                                     compliant with the requirements of diverse world market and contribute to the development of productive and value-laden lives.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

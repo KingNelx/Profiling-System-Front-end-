@@ -14,49 +14,12 @@ const StudentReg = () => {
                     <input type="text" class="form-control" id="inputPassword4" />
                 </div>
                 <div class="col-md-6">
-                    <label for="inputAddress" class="form-label">Permanent Address</label>
+                    <label for="inputAddress" class="form-label">Email</label>
                     <input type="text" class="form-control" id="inputAddress"  />
                 </div>
                 <div class="col-md-6">
-                    <label for="inputAddress2" class="form-label">Contact Number</label>
-                    <input type="text" class="form-control" id="inputAddress2"  />
-                </div>
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">Image</label>
-                    <input type="file" class="form-control" id="inputCity" />
-                </div>
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">Gender</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>Male</option>
-                        <option>Female</option>
-                    </select>
-                </div>
-                <div class="col-md-4">
-                    <label for="inputZip" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputZip" />
-                </div>
-                <div class="col-md-4">
-                    <label for="inputZip" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputZip" />
-                </div>
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">Program</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>BSIS</option>
-                        <option>BSIT</option>
-                        <option>BSCS</option>
-                    </select>
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck" />
-                            <label class="form-check-label" for="gridCheck">
-                               Confirm
-                            </label>
-                    </div>
+                    <label for="inputAddress2" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputAddress2"  />
                 </div>
                 <div class="col-12">
                     <Link to="/studentLogin" type="submit" class="btn btn-primary">Create Account</Link>

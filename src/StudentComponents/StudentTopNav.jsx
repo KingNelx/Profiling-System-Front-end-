@@ -24,9 +24,7 @@ const StudentTpoNav = () => {
                             EDIT INFORMATION
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><Link to="/personalBG" class="dropdown-item" type="button">Personal Background</Link></li>
-                            <li><Link to="/educationalBG" class="dropdown-item" type="button">Educational Background</Link></li>
-                            <li><Link to="/familyBG" class="dropdown-item" type="button">Family Background</Link></li>
+                            <li><Link to="/personalBG" class="dropdown-item" type="button">User Background</Link></li>
                         </ul>
                     </div>
                 </div>

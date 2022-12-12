@@ -1,11 +1,14 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { useNavigate } from "react-router-dom";
 import { useState } from "react"
 import axios from "axios"
+import { useEffect } from "react";
 
-const PersonalBG = () => {
+const UpdateStudent = () => {
 
     let navigate = useNavigate();
+
+    const { id } = useParams();
 
     const [personalBG, setPersonalBG] = useState({
         lastName: "",
@@ -83,18 +86,26 @@ const PersonalBG = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault()
-        await axios.post("http://localhost:8080/student/addStudent", personalBG)
-        navigate('/studentTopNav')
+        await axios.put(`http://localhost:8080/student/addStudent/${id}`, personalBG)
+        navigate('/byReportsBSIS')
     }
 
+    const loadStudents = async () => {
+        const result = await axios.get(`http://localhost:8080/student/students/${id}`)
+        setPersonalBG(result.data)
+    }
+
+    useEffect(() => {
+        loadStudents()
+    }, [])
     return (
         <div>
             <nav class="navbar bg-light shadow-lg py-3 sticky-sm-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand">Personal Background</a>
+                    <a class="navbar-brand">Update Personal Background</a>
                     <div class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <Link to="/studentTopNav" class="btn btn-outline-success" type="submit">Back</Link>
+                        <Link to="/byReportsBSIS" class="btn btn-outline-success" type="submit">Back</Link>
                     </div>
                 </div>
             </nav>
@@ -446,7 +457,7 @@ const PersonalBG = () => {
     );
 }
 
-export default PersonalBG;
+export default UpdateStudent;
 
 /*
 elementarySchool, juniorHighSchool, seniorHighSchool, college, elementaryDegree, elementaryStartDate,

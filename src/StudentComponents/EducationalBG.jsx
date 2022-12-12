@@ -56,7 +56,7 @@ const EducationalBG = () => {
                     <div class="col-md-3">
                         <label class="form-label">Elementary</label>
                         <input type={"text"} name="elementarySchool" value={elementarySchool}
-                            class="form-control" placeholder="School name" />
+                            class="form-control" placeholder="School name" onChange={(e) => onInputChange(e)} />
                     </div>
 
                     <div class="col-md-3">

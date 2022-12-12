@@ -50,6 +50,9 @@ import StudentsBySchoolar from './NewReports/StudentsBySchoolar';
 import StudentsBySex from './NewReports/StudentsBySex';
 import StudentsByYearLvl from './NewReports/StudentsByYearLvl';
 import StudentsWithGadgets from './NewReports/StudentsWithGadgets';
+import BSITReports from './ByReports/BSITReports';
+import BSISReports from './ByReports/BSISReports';
+import UpdateStudent from './AddComponents/UpdateStudent';
 
 const App = () => {
   return (
@@ -101,6 +104,9 @@ const App = () => {
         <Route path="bySex" element={<StudentsBySex />} />
         <Route path="byYearLvl" element={<StudentsByYearLvl />} />
         <Route path="withGadgets" element={<StudentsWithGadgets />} />
+        <Route path="byReportsBSIT" element={<BSITReports />} />
+        <Route path="byReportsBSIS" element={<BSISReports />} />
+        <Route exact path="editBG/:id" element={<UpdateStudent />} />
       </Routes>
     </Router>
   );

@@ -11,8 +11,8 @@ const HomeLogin = () => {
                     </a>
                 </div>
             </nav> */}
-            <nav className=" bg-warning text-dark text-center py-4 shadow-lg ">
-              <span className="text-uppercase fs-5">Profiling System</span>
+            <nav className="text-dark text-center py-4 shadow-lg ">
+              <span className="text-uppercase fs-5">Decision Support System for Academic Advising System</span>
             </nav>
             {/* <p className="text-center mt-3"> Welcome to Profiling System. </p> */}
             <section>
@@ -80,7 +80,7 @@ const HomeLogin = () => {
                                 height: "40vh"
                             }} />
                             <div class="card-body">
-                                <h5 class="card-title">FACULTY</h5>
+                                <h5 class="card-title">CLERK</h5>
                                 <Link to="/facultyLogin" class="btn btn-outline-primary">Log in</Link>
                             </div>
                         </div>

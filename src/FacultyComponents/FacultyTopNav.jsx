@@ -67,9 +67,9 @@ const FacultyTopNav = () => {
               List of Students
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-              <li><Link to="/allBSIT" class="dropdown-item" type="button">BS Information Technology</Link></li>
+             
               <li><Link to="/allBSIS" class="dropdown-item" type="button">BS Information System</Link></li>
-              <li><Link to="/allBSCS" class="dropdown-item" type="button">BS Computer Science</Link></li>
+ 
             </ul>
           </div>
         </div>

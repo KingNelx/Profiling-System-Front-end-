@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const BSCSReports = () => {
 
-    const getBSIT = async() => {
+    const getBSIT = async () => {
         const getAllBSIT = await axios.get()
     }
 
@@ -16,6 +16,7 @@ const BSCSReports = () => {
 
     return (
         <div className="container mt-5">
+            <h2 className="text-center mb-5">Bachelor of Science in Computer Science</h2>
             <table class="table table-striped text-center">
                 <thead>
                     <tr>
@@ -28,17 +29,31 @@ const BSCSReports = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {/* <tr>
+                    <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>Kim</td>
+                        <td>Venavidez</td>
+                        <td>Female</td>
+                        <td>1</td>
                         <td>
-                            <button type="button" class="btn btn-outline-primary">EDIT</button>
-                            <button type="button" class="btn btn-outline-primary">UPDATE</button>
-                            <button type="button" class="btn btn-outline-primary">DELETE</button>
+                            <button type="button" class="btn btn-outline-success">UPDATE</button>
+                            <button type="button" class="btn btn-outline-danger mx-2">DELETE</button>
+                            <button class="btn btn-outline-primary">View</button>
                         </td>
-                    </tr> */}
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Ryan</td>
+                        <td>Rojas</td>
+                        <td>Male</td>
+                        <td>2</td>
+                        <td>
+                            <button type="button" class="btn btn-outline-success">UPDATE</button>
+                            <button type="button" class="btn btn-outline-danger mx-2">DELETE</button>
+                            <button class="btn btn-outline-primary">View</button>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
             <Link to="/byCourse">Go Back</Link>

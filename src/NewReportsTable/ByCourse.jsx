@@ -37,7 +37,7 @@ const ByCourse = () => {
                             <div class="card-body">
                                 <h5 class="card-title">BSCS</h5>
                                 <p class="card-text">Bachelor of Science in Computer Science.</p>
-                                <a href="#" class="btn btn-outline-primary">View</a>
+                                <Link to="/byReportsBSCS" class="btn btn-outline-primary">View</Link>
                             </div>
                         </div>
                     </div>

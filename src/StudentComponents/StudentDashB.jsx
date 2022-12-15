@@ -4,13 +4,15 @@ import cict from "../Image/cict.jpg"
 const StudentDashB = () => {
     return (
         <div>
-            <div class="container text-center  shadow-lg bg-warning">
+            <div class="container text-center  shadow-lg bg-warning px-5 py-2">
                 <div class="row">
                     <div class="col">
                         <div class="card mx-auto shadow-lg bg-primary" style={{
                             width: "18rem"
                         }}>
-                            <img src={cict} class="card-img-top rounded" alt="..." />
+                            <img src={cict} class="card-img-top rounded" alt="..." style={
+                                {height: "30vh", width: "100%"}
+                            } />
                             {/* <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

@@ -83,10 +83,10 @@ const PersonalBG = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault()
-        await axios.post("http://localhost:8080/student/addStudent", personalBG)
+        await axios.post("http://localhost:8080/addStudent", personalBG)
         navigate('/studentTopNav')
     }
-
+    
     return (
         <div>
             <nav class="navbar bg-light shadow-lg py-3 sticky-sm-top">

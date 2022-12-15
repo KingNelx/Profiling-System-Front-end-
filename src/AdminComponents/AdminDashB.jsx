@@ -13,7 +13,7 @@ const AdminDashB = () => {
                             <i class="fa-solid fa-user-tie fa-2xl"></i>
                             <div class="card-body">
                                 <h5 class="card-title mb-4">Total Student</h5>
-                                <p class="card-text">There are 246 total students.</p>
+                                <p class="card-text">There are 5 total students.</p>
 
                             </div>
                         </div>

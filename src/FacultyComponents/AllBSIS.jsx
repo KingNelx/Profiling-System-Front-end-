@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 import axios from "axios"
 
 const AllBSIS = () => {
 
     const [bsisAll, setBSISAll] = useState([])
-
+    const {id} = useParams()
     const loadAllBSIS = async () => {
-        const getAll = await axios.get("http://localhost:8080/student/getAllStudents")
+        const getAll = await axios.get("http://localhost:8080/getAllStudents")
         setBSISAll(getAll.data)
     }
     useEffect(() => {
@@ -20,12 +20,6 @@ const AllBSIS = () => {
                 <div class="container text-center mx-auto py-auto mt-5 ">
                     <h2> Bachelor of Science in Information System</h2>
                     <div class="row">
-                        <div class="col ">
-                            <Link> <p> Male </p></Link>
-                        </div>
-                        <div class="col">
-                            <Link> <p> Female </p></Link>
-                        </div>
                     </div>
                     <table className="table table-striped">
                         <thead className="table-dark">
@@ -48,7 +42,8 @@ const AllBSIS = () => {
                                         <td>{bsis.middleName}</td>
                                         <td>{bsis.block}</td>
                                         <td>
-                                            <button className="btn btn-outline-primary"> View </button>
+                                        <Link to={`/viewStudent/${bsis.id}`} class="btn btn-outline-primary">View</Link>
+                                        <Link to={`/editBG/${bsis.id}`} class="btn btn-outline-success mx-2">UPDATE</Link>
                                         </td>
                                     </tr>
                                 ))

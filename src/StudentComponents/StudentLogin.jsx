@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
 const StudentLogin = () => {
     return (
         <div>
@@ -18,13 +19,10 @@ const StudentLogin = () => {
                         <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" />
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                    </div>
+
                     <Link to="/studentTopNav" class="btn btn-primary mx-2">Submit</Link>
                     <Link to="/" class="btn btn-outline-success">Go Back</Link>
-                    <Link to="/studentReg" className="mx-2">No Account? Sign up now!</Link>
+                    <Link to="/studentReg" class="mx-2">Create Account</Link>
                 </div>
             </form>
         </div>

@@ -1,14 +1,12 @@
 import { Link, useParams } from "react-router-dom"
 import { useNavigate } from "react-router-dom";
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import axios from "axios"
-import { useEffect } from "react";
 
 const UpdateStudent = () => {
 
     let navigate = useNavigate();
-
-    const { id } = useParams();
+    const {id} = useParams();
 
     const [personalBG, setPersonalBG] = useState({
         lastName: "",
@@ -84,20 +82,21 @@ const UpdateStudent = () => {
         setPersonalBG({ ...personalBG, [e.target.name]: e.target.value })
     }
 
+    useEffect( () => {
+        loadUser()
+    }, [])
+    
     const onSubmit = async (e) => {
         e.preventDefault()
-        await axios.put(`http://localhost:8080/student/addStudent/${id}`, personalBG)
-        navigate('/byReportsBSIS')
+        await axios.put(`http://localhost:8080/students/${id}`, personalBG)
+        navigate('/studentTopNav')
     }
 
-    const loadStudents = async () => {
-        const result = await axios.get(`http://localhost:8080/student/students/${id}`)
+    const loadUser = async() => {
+        const result = await axios.get(`http://localhost:8080/student/addStudent/${id}`)
         setPersonalBG(result.data)
     }
 
-    useEffect(() => {
-        loadStudents()
-    }, [])
     return (
         <div>
             <nav class="navbar bg-light shadow-lg py-3 sticky-sm-top">
@@ -453,6 +452,7 @@ const UpdateStudent = () => {
                     </div>
                 </form>
             </section>
+            <Link to="/allBSIS">Faculty go back</Link>
         </div>
     );
 }

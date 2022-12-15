@@ -12,14 +12,14 @@ const AdminTopNav = () => {
                         ADMIN Dashboard
                     </a>
                     <div class="btn-group px-1 ms-auto">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        {/* <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             COURSES
-                        </button>
-                        <ul class="dropdown-menu">
+                        </button> */}
+                        {/* <ul class="dropdown-menu">
                             <li><Link to="/bsitDashB" class="dropdown-item" href="#">BSIT</Link></li>
                             <li><Link to="/bsisDashB" class="dropdown-item" href="#">BSIS</Link></li>
                             <li><Link to="/bscsDashB" class="dropdown-item" href="#">BSCS</Link></li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div class="btn-group px-1 ">
                         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">

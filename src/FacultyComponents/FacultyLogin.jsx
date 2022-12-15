@@ -18,10 +18,6 @@ const FacultyLogin = () => {
                         <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" />
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                    </div>
                     <Link to="/faultyTopnav" class="btn btn-primary mx-2">Submit</Link>
                     <Link to="/" class="btn btn-outline-success">Go Back</Link>
                 </div>

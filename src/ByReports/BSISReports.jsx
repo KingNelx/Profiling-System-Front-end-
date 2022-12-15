@@ -7,7 +7,7 @@ const BSISReports = () => {
     const { id } = useParams()
 
     const getBSIS = async () => {
-        const getData = await axios.get("http://localhost:8080/student/getAllStudents")
+        const getData = await axios.get("http://localhost:8080/getAllStudents")
         setbsis(getData.data)
     }
 
@@ -18,7 +18,7 @@ const BSISReports = () => {
     }, [])
 
     const deleteUser = async (id) => {
-        await axios.delete(`http://localhost:8080/student/students/${id}`)
+        await axios.delete(`http://localhost:8080/students/${id}`)
         getBSIS()
     }
 
@@ -26,6 +26,7 @@ const BSISReports = () => {
     return (
         <div>
             <div className="container mt-5">
+                <h2 className="text-center mb-5">Bachelor of Science in Information Systems</h2>
                 <table class="table table-striped text-center">
                     <thead>
                         <tr>
@@ -47,9 +48,9 @@ const BSISReports = () => {
                                     <td>{bsisR.gender}</td>
                                     <td>{bsisR.yearLevel}</td>
                                     <td>
-                                        <Link to={`/editBG/${bsisR.id}`} type="button" class="btn btn-outline-success ">UPDATE</Link>
+                                        <Link to={`/editBG/${bsisR.id}`} class="btn btn-outline-success ">UPDATE</Link>
                                         <button type="button" class="btn btn-outline-danger mx-2" onClick={() => deleteUser(bsisR.id)}>DELETE</button>
-                                        <button class="btn btn-outline-primary">View</button>
+                                        <Link to={`/viewStudent/${bsisR.id}`} class="btn btn-outline-primary">View</Link>
                                     </td>
                                 </tr>
                             ))

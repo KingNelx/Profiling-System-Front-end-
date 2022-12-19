@@ -59,6 +59,9 @@ import ViewStudent2 from './AddComponents/ViewStudent2';
 import ByYearLevel from './OtherData/ByYearLevel';
 import SexList from './OtherData/SexList';
 import MunicipalList from './OtherData/MunicipalList';
+import Males from './OtherData/Males';
+import WithSchoolar from './NewReportsTable/WithScholar';
+import WithNoSchoolar from './NewReportsTable/WithNoSchoolar';
 
 const App = () => {
   return (
@@ -119,6 +122,9 @@ const App = () => {
         <Route path="yearLevel" element={<ByYearLevel />} />
         <Route path="sexList" element={<SexList />} />
         <Route path="municipalList" element={<MunicipalList />} />
+        <Route path="allMales" element={<Males />} />
+        <Route path="noScholar" element={<WithNoSchoolar />} />
+        <Route path="withScholar" element={<WithSchoolar />} />
       </Routes>
     </Router>
   );

@@ -56,12 +56,12 @@ const AdminDashB = () => {
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">
-                                <h5 class="card-title">Mission</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">-CICT Mission</h6>
-                                {/* <p class="card-text">
+                                <h3 class="card-title">Mission</h3>
+                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                { <p class="card-text">
                                     Foster excellence, holistic outcome-based education
                                     compliant with the requirements of diverse world market and contribute to the development of productive and value-laden lives.
-                                </p> */}
+                                </p> }
 
                             </div>
                         </div>
@@ -71,11 +71,14 @@ const AdminDashB = () => {
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">
-                                <h5 class="card-title">Vission</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">-CICT Vission</h6>
-                                {/* <p class="card-text">
-                                    Respect, Integrity, Social Responsibility, Excellence, Commitment
-                                </p> */}
+                                <h3 class="card-title">Vission</h3>
+                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                { <p class="card-text">
+                                    A green university globally engaged in island research and innovation for societal advancement.
+
+
+                                    
+                                </p> }
 
                             </div>
                         </div>
@@ -85,10 +88,12 @@ const AdminDashB = () => {
                             { wwidth: "18rem" }
                         }>
                             <div class="card-body">
-                                <h5 class="card-title">Core Values</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">-CICT Core Values</h6>
-                                {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-
+                                <h3 class="card-title">Core Values</h3>
+                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                 { <p class="card-text">
+                                 Respect, Integrity, Social Responsibility, Excellence, Commitment.
+                                    
+                                </p> }
                             </div>
                         </div>
                     </div>

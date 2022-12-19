@@ -7,7 +7,7 @@ const AllBSIS = () => {
     const [bsisAll, setBSISAll] = useState([])
     const {id} = useParams()
     const loadAllBSIS = async () => {
-        const getAll = await axios.get("http://localhost:8080/getAllStudents")
+        const getAll = await axios.get("http://localhost:8080/allBSIS")
         setBSISAll(getAll.data)
     }
     useEffect(() => {

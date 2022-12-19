@@ -10,19 +10,7 @@ const BySex = () => {
                             { width: "18rem" }
                         }>
                             <div class="card-body">
-                                <h5 class="card-title">BSIT</h5>
-                                <p class="card-text">Bachelor of Science in Information Technology.</p>
-                                <a href="#" class="btn btn-outline-primary">View</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card  mx-auto" style={
-                            { width: "18rem" }
-                        }>
-                            <div class="card-body">
-                                <h5 class="card-title">BSIS</h5>
-                                <p class="card-text">Bachelor of Science in Information System.</p>
+                                <h5 class="card-title">Others</h5>
                                 <Link to="/SexList" class="btn btn-outline-primary">View</Link>
                             </div>
                         </div>
@@ -32,9 +20,18 @@ const BySex = () => {
                             { width: "18rem" }
                         }>
                             <div class="card-body">
-                                <h5 class="card-title">BSCS</h5>
-                                <p class="card-text">Bachelor of Science in Computer Science.</p>
-                                <a href="#" class="btn btn-outline-primary">View</a>
+                                <h5 class="card-title">All Females</h5>
+                                <Link to="/SexList" class="btn btn-outline-primary">View</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card  mx-auto" style={
+                            { width: "18rem" }
+                        }>
+                            <div class="card-body">
+                                <h5 class="card-title">AllMales</h5>
+                                <Link to="/allMales" class="btn btn-outline-primary">View</Link>
                             </div>
                         </div>
                     </div>

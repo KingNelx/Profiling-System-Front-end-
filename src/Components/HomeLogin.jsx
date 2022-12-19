@@ -53,7 +53,7 @@ const HomeLogin = () => {
                                 height: "40vh"
                             }} />
                             <div class="card-body">
-                                <h5 class="card-title">ADMIN</h5>
+                                <h5 class="card-title">DEAN</h5>
                                 <Link to="/adminLogin" class="btn btn-outline-primary">Log in</Link>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ const HomeLogin = () => {
                                 height: "40vh"
                             }} />
                             <div class="card-body">
-                                <h5 class="card-title">FACULTY</h5>
+                                <h5 class="card-title">CLERK</h5>
                                 <Link to="/facultyLogin" class="btn btn-outline-primary">Log in</Link>
                             </div>
                         </div>

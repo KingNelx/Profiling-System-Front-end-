@@ -33,24 +33,28 @@ const StudentReg = () => {
         <div className="container mt-5 py-5">
             <h2 className="text-center">Student Sign up. </h2>
             <form class="row g-3" onSubmit={(e) => onSubmit(e)}>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <label for="inputEmail4" class="form-label">Firstname</label>
                     <input type={"text"} name="studFirstName" value={studFirstName}
                         class="form-control" onChange={(e) => onInputChange(e)} />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <label for="inputPassword4" class="form-label">Lastname</label>
                     <input type={"text"} name="studLastName" value={studLastName} onChange={(e) => onInputChange(e)} class="form-control" id="inputPassword4" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <label for="inputAddress" class="form-label">Email</label>
                     <input type={"email"} name="studEmail" value={studEmail} onChange={(e) => onInputChange(e)} class="form-control" id="inputAddress" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <label for="inputAddress2" class="form-label">Password</label>
                     <input type={"password"} name="studPass" value={studPass} onChange={(e) => onInputChange(e)} class="form-control" id="inputAddress2" />
                 </div>
-                <div class="col-12">
+                <div class="col-md-6 ">
+                    <label for="inputAddress2" class="form-label">Confirm Password</label>
+                    <input type={"password"} name="studPass" value={studPass} onChange={(e) => onInputChange(e)} class="form-control" id="inputAddress2" />
+                </div>
+                <div class="col-12  text-center">
                     <Link to="/studentLogin" type="submit" class="btn btn-primary">Create Account</Link>
                 </div>
             </form>

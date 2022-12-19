@@ -9,7 +9,7 @@ const FacultyTopNav = () => {
         <div class="container-fluid ">
           <a class="navbar-brand" href="#">
             {/* <img src="https://i0.wp.com/nofiredrills.com/wp-content/uploads/2016/10/myavatar.png?fit=400%2C400&ssl=1" alt="Logo" width="50" height="40" class="d-inline-block align-text-top" /> */}
-            FACULTY Dashboard
+            CLERK Dashboard
           </a>
           <div class="btn-group ms-auto ">
             <Link to="/" type="button" class="btn btn-outline-primary" >
@@ -26,7 +26,7 @@ const FacultyTopNav = () => {
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Faculty Profile</h1>
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">CLERK Profile</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">

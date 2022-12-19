@@ -1,84 +1,61 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
+import { useState, useEffect } from "react"
+import axios from "axios"
+
 const AllBSCS = () => {
+
+    const [bsisAll, setBSISAll] = useState([])
+    const {id} = useParams()
+    const loadAllBSIS = async () => {
+        const getAll = await axios.get("http://localhost:8080/allBSCS")
+        setBSISAll(getAll.data)
+    }
+    useEffect(() => {
+        loadAllBSIS()
+    }, [])
+
     return (
         <div>
-        <h2> NO DATA </h2>
-        <p>Data still be fetched from backend using axios</p>
-        {/* <div>
-            <div class="container text-center mx-auto py-auto mt-5 ">
-                <h2> Bachelor of Science in Information System</h2>
-                <div class="row">
-                    <div class="col ">
-                        <Link> <p> Male </p></Link>
+            <div>
+                <div class="container text-center mx-auto py-auto mt-5 ">
+                    <h2> Bachelor of Computer Science</h2>
+                    <div class="row">
                     </div>
-                    <div class="col">
-                        <Link> <p> Female </p></Link>
-                    </div>
+                    <table className="table table-striped">
+                        <thead className="table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Firstname</th>
+                                <th scope="col">Lastname</th>
+                                <th scope="col">Middlename</th>
+                                <th scope="col">Block</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                bsisAll.map((bsis, index) => (
+                                    <tr>
+                                        <th scope="row" key={index}>{index+1}</th>
+                                        <td>{bsis.firstName}</td>
+                                        <td>{bsis.lastName}</td>
+                                        <td>{bsis.middleName}</td>
+                                        <td>{bsis.block}</td>
+                                        <td>
+                                        <Link to={`/viewStudent/${bsis.id}`} class="btn btn-outline-primary">View</Link>
+                                        <Link to={`/editBG/${bsis.id}`} class="btn btn-outline-success mx-2">UPDATE</Link>
+                                        </td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </table>
                 </div>
-                <table className="table table-striped">
-                    <thead className="table-dark">
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">ID No.</th>
-                            <th scope="col">Firstname</th>
-                            <th scope="col">Lastname</th>
-                            <th scope="col">Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>2022-1234</td>
-                            <td>Angeleen</td>
-                            <td>Abay</td>
-                            <td>
-                                <button className="btn btn-outline-primary"> View </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>2022-4321</td>
-                            <td>Andrea</td>
-                            <td>Anata</td>
-                            <td>
-                                <button className="btn btn-outline-primary"> View </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>2022-5678</td>
-                            <td>Joanne</td>
-                            <td>Bueno</td>
-                            <td>
-                                <button className="btn btn-outline-primary"> View </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>2022-8765</td>
-                            <td>Jesser</td>
-                            <td>Togueno</td>
-                            <td>
-                                <button className="btn btn-outline-primary"> View </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5</th>
-                            <td>2022-9101</td>
-                            <td>Clara</td>
-                            <td>Tasarra</td>
-                            <td>
-                                <button className="btn btn-outline-primary"> View </button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div> */}
-            <footer className="text-center">
-                <Link to="/faultyTopnav"> Go Back </Link>
-            </footer>
+                <footer className="text-center">
+                    <Link to="/faultyTopnav"> Go Back </Link>
+                </footer>
+            </div>
         </div>
-    // </div>
     );
 }
 

@@ -362,11 +362,11 @@ const UpdateStudent = () => {
                             onChange={(e) => onInputChange(e)} name="fathersOccupation" value={fathersOccupation} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Father's Company</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="fathersCompany" value={fathersCompany} />
-                    </div>
+                    </div> */}
 
                     <div class="col-md-3">
                         <label class="form-label">Father's Mobile No.</label>
@@ -380,11 +380,11 @@ const UpdateStudent = () => {
                             onChange={(e) => onInputChange(e)} name="fathersMonthlyIncome" value={fathersMonthlyIncome} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Father's Email Address</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="fathersEmailAddress" value={fathersEmailAddress} />
-                    </div>
+                    </div> */}
 
                     <div class="col-md-3">
                         <label class="form-label">Mother's Surname</label>
@@ -422,11 +422,11 @@ const UpdateStudent = () => {
                             onChange={(e) => onInputChange(e)} name="mothersOccupation" value={mothersOccupation} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Mother's Company</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="mothersCompany" value={mothersCompany} />
-                    </div>
+                    </div> */}
 
                     <div class="col-md-3">
                         <label class="form-label">Mother's Mobile No.</label>
@@ -440,11 +440,11 @@ const UpdateStudent = () => {
                             onChange={(e) => onInputChange(e)} name="mothersMonthlyIncome" value={mothersMonthlyIncome} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Mother's Email Address</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="mothersEmailAddress" value={mothersEmailAddress} />
-                    </div>
+                    </div> */}
 
 
                     <div class="col-12">

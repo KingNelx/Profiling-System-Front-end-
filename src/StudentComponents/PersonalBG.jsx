@@ -219,7 +219,8 @@ const PersonalBG = () => {
                         <input type={"text"} name="statusOfInternet" value={statusOfInternet}
                             class="form-control" placeholder="[Poor/Good/Very Good]" onChange={(e) => onInputChange(e)} />
                     </div>
-
+        <hr />
+        <h3 className="shadow-lg mt-5">Educational Background</h3>
                     <div class="col-md-3">
                         <label class="form-label">Elementary</label>
                         <input type={"text"} name="elementarySchool" value={elementarySchool}
@@ -334,11 +335,11 @@ const PersonalBG = () => {
                             onChange={(e) => onInputChange(e)} name="fathersMiddleName" value={fathersMiddleName} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Father's address</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="fathersAddress" value={fathersAddress} />
-                    </div>
+                    </div> */}
 
                     <div class="col-md-3">
                         <label class="form-label">Father's Highest Educational</label>
@@ -352,29 +353,29 @@ const PersonalBG = () => {
                             onChange={(e) => onInputChange(e)} name="fathersOccupation" value={fathersOccupation} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Father's Company</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="fathersCompany" value={fathersCompany} />
-                    </div>
+                    </div> */}
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Father's Mobile No.</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="fathersMobileNumber" value={fathersMobileNumber} />
-                    </div>
+                    </div> */}
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Father's Monthly Income</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="fathersMonthlyIncome" value={fathersMonthlyIncome} />
-                    </div>
-
+                    </div> */}
+{/* 
                     <div class="col-md-3">
                         <label class="form-label">Father's Email Address</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="fathersEmailAddress" value={fathersEmailAddress} />
-                    </div>
+                    </div> */}
 
                     <div class="col-md-3">
                         <label class="form-label">Mother's Surname</label>
@@ -394,11 +395,11 @@ const PersonalBG = () => {
                             onChange={(e) => onInputChange(e)} name="mothersMiddleName" value={mothersMiddleName} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Mother's address</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="mothersAddress" value={mothersAddress} />
-                    </div>
+                    </div> */}
 
                     <div class="col-md-3">
                         <label class="form-label">Mother's Highest Educational</label>
@@ -412,29 +413,29 @@ const PersonalBG = () => {
                             onChange={(e) => onInputChange(e)} name="mothersOccupation" value={mothersOccupation} />
                     </div>
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Mother's Company</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="mothersCompany" value={mothersCompany} />
-                    </div>
+                    </div> */}
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Mother's Mobile No.</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="mothersMobileNumber" value={mothersMobileNumber} />
-                    </div>
-
+                    </div> */}
+{/* 
                     <div class="col-md-3">
                         <label class="form-label">Mother's Monthly Income</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="mothersMonthlyIncome" value={mothersMonthlyIncome} />
-                    </div>
+                    </div> */}
 
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <label class="form-label">Mother's Email Address</label>
                         <input type="text" class="form-control"
                             onChange={(e) => onInputChange(e)} name="mothersEmailAddress" value={mothersEmailAddress} />
-                    </div>
+                    </div> */}
 
 
                     <div class="col-12">

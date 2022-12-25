@@ -12,7 +12,7 @@ const HomeLogin = () => {
                 </div>
             </nav> */}
             <nav className=" bg-warning text-dark text-center py-4 shadow-lg ">
-              <span className="text-uppercase fs-5">Profiling System</span>
+              <span className="text-uppercase fs-5">Student Profiling System</span>
             </nav>
             {/* <p className="text-center mt-3"> Welcome to Profiling System. </p> */}
             <section>

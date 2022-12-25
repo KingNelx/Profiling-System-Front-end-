@@ -14,10 +14,10 @@ const AdminLogin = () => {
                         <label for="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" />
                     </div>
-                    <div class="mb-3">
+                    {/* <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" />
-                    </div>
+                    </div> */}
                   
                     <Link to="/admintopNav" class="btn btn-primary mx-2">Submit</Link>
                     <Link to="/" class="btn btn-outline-success">Go Back</Link>

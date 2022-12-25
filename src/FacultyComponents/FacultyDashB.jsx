@@ -49,6 +49,7 @@ const FacultyDashB = () => {
             </div>
         </div>
 
+<<<<<<< HEAD
         <div class="container text-center mt-3 py-1 shadow-lg">
             <h2> CICT PROFILE </h2>
             <hr />
@@ -92,6 +93,9 @@ const FacultyDashB = () => {
                 </div>
             </div>
         </div>
+=======
+      
+>>>>>>> 7f2c4a722218a455b74d70bb6649195aabe4ab2b
     </div>
     );
 }

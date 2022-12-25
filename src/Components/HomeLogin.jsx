@@ -11,8 +11,13 @@ const HomeLogin = () => {
                     </a>
                 </div>
             </nav> */}
+<<<<<<< HEAD
             <nav className=" bg-warning text-dark text-center py-4 shadow-lg ">
               <span className="text-uppercase fs-5">Student Profiling System</span>
+=======
+            <nav className="text-dark text-center py-4 shadow-lg ">
+              <span className="text-uppercase fs-5">Decision Support System for Academic Advising System</span>
+>>>>>>> 7f2c4a722218a455b74d70bb6649195aabe4ab2b
             </nav>
             {/* <p className="text-center mt-3"> Welcome to Profiling System. </p> */}
             <section>

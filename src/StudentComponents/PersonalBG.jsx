@@ -167,9 +167,9 @@ const PersonalBG = () => {
                     </div>
 
                     <div class="col-md-3">
-                        <label class="form-label">Temporary Address</label>
+                        <label class="form-label">Units Enrolled</label>
                         <input type={"text"} name="temporaryAddress" value={temporaryAddress}
-                            class="form-control" placeholder="Temporary Address" onChange={(e) => onInputChange(e)} />
+                            class="form-control" placeholder="Units Enrolled" onChange={(e) => onInputChange(e)} />
                     </div>
 
                     <div class="col-md-3">
